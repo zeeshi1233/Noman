@@ -1,0 +1,2447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PICNIC GAMES</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/2d74a64ba9.js" crossorigin="anonymous"></script>
+<!--Book-->
+ <!--Importan css-->
+<style>
+/* responsive*/
+@media (max-width : 700px){
+#main30{
+	top: 0;
+  height: 550px;
+  position: relative;
+  border-radius:0px;
+  box-shadow: none;
+}
+#main30{
+	position: relative;
+  width: calc(100%-350px);
+  padding-left: 0;
+  margin-left: 0;
+  padding:50px ;
+  height: 550px;
+  box-shadow:none ;	
+
+}
+}
+@media (max-width : 991px){
+#main30{
+	width:100% ;
+height: auto;
+}
+#main30{
+	width:100%;
+height: auto;
+border-radius:0px;
+flex-direction:row ;
+margin-left:-250px ;		
+}
+}
+@media (max-width :600px){
+#main30{
+	padding:50px ;
+  border-radius:0px;
+  flex-direction: column;
+  align-items: flex-start;	
+}
+#main30{
+	padding:10px;	
+
+}
+}
+/* close responsive*/
+
+</style>
+<!--Importan css-->
+<!--dropdown css-->
+<style>
+	.dropdown-menu li {
+position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+
+.service-categories {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-size: cover;
+}
+
+
+/*DEMO ONLY*/
+
+.service-categories .card {
+  transition: all 0.3s;
+}
+
+.service-categories .card-title {
+  padding-top: 0.5em;
+}
+
+.service-categories a:hover {
+  text-decoration: none;
+}
+
+.service-card{
+
+  border: 0;
+}
+
+.service-card:hover {
+	color: white;
+  box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.2)
+}
+.card-title:hover{
+	color: white;
+
+}
+
+
+ /*  */
+ .container1 {
+  width: 80%;
+  margin: 0 auto;
+  display :flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+
+.card1{
+  margin : auto;
+  width: 350px;
+  overflow : hidden;
+  border-radius : 20px;
+  background : white;
+  margin-top:50px;
+  transition: all .2s;
+  box-shadow:5px 5px 15px rgba(0,0,0, .3);
+}
+
+.card1:hover {
+  box-shadow:5px 5px 25px rgba(0,0,0, .5);
+  transform: translate(-5px, -5px);
+}
+
+.card1:hover .icon1 svg{
+  animation : iconjln 1s;
+}
+
+.img-cover{
+  position: relative;
+}
+
+.card1 img{
+  width: 350px;
+  height:350px;
+  object-fit:cover;
+}
+
+.icon1{
+  position:absolute;
+  top:0;
+  padding : 25px;
+  right:0;
+  border-bottom-left-radius:20px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.desc{
+  padding : 1.5em ;
+  font-family: 'Poppins', sans-serif;
+}
+.desc h1{
+  display:inline;
+}
+.tdesc{
+  margin-bottom:40px;
+  width:100%;
+  height:50px;
+  overflow: auto;
+}
+
+.desc a{
+  text-decoration: none;
+  background-color: dodgerblue;
+  padding: 15px 25px;
+  color:white;
+  border-radius: 15px;
+  display:block;
+  text-align: center;
+  transition: all .2s;
+}
+.desc a:hover{
+  background-color: SteelBlue;
+}
+.desc a:hover svg{
+  animation : iconjln 1s;
+}
+
+@keyframes iconjln{
+  0%, 100% {
+    opacity : 1;
+    transform: translateX(0%);
+  }
+  50%{
+    opacity:0;
+    transform: translateX(100%);
+  }
+  70%{
+    opacity:0;
+    transform:translateX(-100%);
+  }
+}
+/* responsive*/
+@media (max-width : 900px){
+.card1 {
+  top: 0;
+  height: 550px;
+  position: relative;
+  border-radius:20px;
+  box-shadow: none;
+}
+.card1 img{
+	top: 0;
+  height: 550px;
+  position: relative;
+  border-radius:0px;
+  box-shadow: none;	
+}
+.card1 img
+{
+  position: relative;
+  width: calc(100%-350px);
+  padding-left: 0;
+  margin-left: 0;
+  padding:40px ;
+  height: 550px;
+  box-shadow:none ;
+}
+.card1 {
+  position: relative;
+  width: calc(100%-350px);
+  padding-left: 0;
+  margin-left: 0;
+  padding:40px ;
+  border-radius:20px;
+  height: 550px;
+  box-shadow:none ;
+}
+.iht{
+	top: 0;
+  height: 550px;
+  position: relative;
+  border-radius:0px;
+  box-shadow: none;	
+}
+.iht{
+	position: relative;
+  width: calc(100%-350px);
+  padding-left: 0;
+  margin-left: 0;
+  padding:40px ;
+  height: 550px;
+  box-shadow:none ;	
+}
+
+}
+@media (max-width : 991px){
+
+  .card1 {
+width:100% ;
+height: auto;
+border-radius:20px;
+}
+
+.card1{
+width:100%;
+height: auto;
+border-radius:20px;
+flex-direction:row ;
+}
+.card1 img{
+width:100% ;
+height: auto;
+}
+.card1 img{
+width:100%;
+height: auto;
+border-radius:0px;
+flex-direction:row ;
+}
+.iht{
+	width:100% ;
+height: auto;
+
+}
+.iht{
+	width:100%;
+height: auto;
+border-radius:0px;
+flex-direction:row ;
+}
+
+
+}
+@media (max-width :800px){
+.card1 {
+	
+  padding:25px ;
+  border-radius:20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card1{
+  padding: 25px;
+}
+ .card1 img{
+  padding:25px ;
+  border-radius:0px;
+  flex-direction: column;
+  align-items: flex-start;
+} .card1 img{
+	padding: 25px;
+}
+.iht{
+
+	padding:25px ;
+  border-radius:0px;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.iht{
+	padding: 25px;	
+}
+
+}
+
+
+
+
+
+/* close responsive*/
+
+.section1 {
+            padding: 60px 0;
+           /* min-height: 100vh;*/
+        }
+
+.sec-title{
+  position:relative;
+  z-index: 1;
+  margin-bottom:60px;
+}
+
+.sec-title .title{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  color: #00aeef;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.sec-title h2{
+  position: relative;
+  display: block;
+  font-size:40px;
+  line-height: 1.28em;
+  color: #222222;
+  font-weight: 600;
+  padding-bottom:18px;
+}
+
+.sec-title h2:before{
+  position:absolute;
+  content:'';
+  left:0px;
+  bottom:0px;
+  width:50px;
+  height:3px;
+  background-color:#d1d2d6;
+}
+
+.sec-title .text{
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+.sec-title.light h2{
+  color: #ffffff;
+}
+
+.sec-title.text-center h2:before{
+  left:50%;
+  margin-left: -25px;
+}
+
+.list-style-one{
+  position:relative;
+}
+
+.list-style-one li{
+  position:relative;
+  font-size:16px;
+  line-height:26px;
+  color: #222222;
+  font-weight:400;
+  padding-left:35px;
+  margin-bottom: 12px;
+}
+
+.list-style-one li:before {
+    content: "\f058";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: block;
+    font-size: 18px;
+    padding: 0px;
+    color: #ff2222;
+    font-weight: 600;
+    -moz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1.6;
+    font-family: "Font Awesome 5 Free";
+}
+
+.list-style-one li a:hover{
+  color: #44bce2;
+}
+
+.btn-style-one{
+  position: relative;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-weight: 600;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+  background-color: #00aeef;
+}
+
+.btn-style-one:hover{
+  background-color: #0794c9;
+  color: #ffffff;
+}
+.about-section{
+  position: relative;
+  padding: 120px 0 70px;
+}
+
+.about-section .sec-title{
+  margin-bottom: 45px;
+}
+
+.about-section .content-column{
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.about-section .content-column .inner-column{
+  position: relative;
+  padding-left: 30px;
+}
+
+.about-section .text{
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #848484;
+  font-weight: 400;
+}
+
+.about-section .list-style-one{
+  margin-bottom: 45px;
+}
+
+.about-section .btn-box{
+  position: relative;
+}
+
+.about-section .btn-box a{
+  padding: 15px 50px;
+}
+
+.about-section .image-column{
+  position: relative;
+}
+
+.about-section .image-column .text-layer{
+    position: absolute;
+    right: -110px;
+    top: 50%;
+    font-size: 325px;
+    line-height: 1em;
+    color: #ffffff;
+    margin-top: -175px;
+    font-weight: 500;
+}
+
+.about-section .image-column .inner-column{
+  position: relative;
+  padding-left: 80px;
+  padding-bottom: 0px;
+}
+.about-section .image-column .inner-column .author-desc{
+    position: absolute;
+    bottom: 16px;
+    z-index: 1;
+    background: orange;
+    padding: 10px 15px;
+    left: 96px;
+    width: calc(100% - 152px);
+    border-radius: 50px;
+}
+.about-section .image-column .inner-column .author-desc h2{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+  margin: 0;
+}
+.about-section .image-column .inner-column .author-desc span{
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-align: center;
+    color: #fff;
+  display: block;
+  font-weight: 400;
+}
+.about-section .image-column .inner-column:before{
+    content: '';
+    position: absolute;
+    width: calc(50% + 80px);
+    height: calc(100% + 160px);
+    top: -80px;
+    left: -3px;
+    background: transparent;
+    z-index: 0;
+    border: 44px solid #00aeef;
+}
+
+.about-section .image-column .image-1{
+  position: relative;
+}
+.about-section .image-column .image-2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about-section .image-column .image-2 img,
+.about-section .image-column .image-1 img{
+  box-shadow: 0 30px 50px rgba(8,13,62,.15);
+      border-radius: 46px;
+}
+
+.about-section .image-column .video-link{
+  position: absolute;
+  left: 70px;
+  top: 170px;
+}
+
+.about-section .image-column .video-link .link{
+  position: relative;
+  display: block;
+  font-size: 22px;
+  color: #191e34;
+  font-weight: 400;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 30px 50px rgba(8,13,62,.15);
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.about-section .image-column .video-link .link:hover{
+  background-color: #191e34;
+  color: #fff;}
+</style>
+<!--dropdown css-->
+<style>
+	.page_title {
+    padding: 30px 0px;
+}
+.page_title h1 {
+    color: #35aa52;
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: capitalize;
+}
+.page_title h1::before {
+    background: #35aa52;
+  
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page_title h1::after {
+    position: absolute;
+    content: '';
+    background: #fbc531;
+    width: 30px;
+    height: 2px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*Menu starts*/
+.menu_tab {
+    margin: 0 auto;
+    justify-content: center;
+}
+.nav-item {
+    display: inline-block;
+    text-align: center;
+}
+.nav-tabs .nav-link{
+    transition: .3s;
+}
+.nav-tabs .nav-link.active {
+    background: #35aa52;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #35aa52;
+    text-transform: capitalize;
+}
+.nav-link {
+    color: #000;
+}
+.nav-tabs .nav-link:hover {
+    background: #35aa52;
+    color: #fff;
+    border: 1px solid #35aa52;
+}
+.single_menu {
+    position: relative;
+    margin-bottom: 75px;
+    transition: .3s;
+}
+.single_menu:hover img{
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+
+}
+.single_menu img {
+    width: 33%;
+    position: absolute;
+    height: 140px;
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    transition: .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.menu_content {
+    padding-left: 200px;
+}
+.menu_content h4 {
+    font-size: 25px;
+    font-weight: 300;
+    border-bottom: 1px dashed #35aa52;
+    line-height: 2;
+    text-transform: capitalize;
+}
+.menu_content h4 span {
+    font-size: 25px;
+    font-weight: 800;
+    float: right;
+    font-style: italic;
+    color: #35aa52;
+}
+.menu_content p {
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.menu_btn.btn.btn-primary {
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+}
+/*Menu ends*/
+.menu_btn.btn.btn-primary{
+	margin: 0 auto;
+	display: block;
+	width: 140px;
+}
+.btn.btn-primary {
+	background: #35aa52;
+	border: 1px solid #35aa52;
+	transition: .3s;
+	position: relative;
+	z-index: 1;
+	text-transform: capitalize;
+	font-weight: 700;
+	overflow: hidden;
+	padding: 15px 25px;
+}
+.btn.btn-primary::before {
+	position: absolute;
+	content: '';
+	background:#35aa52;
+	width: 100%;
+	height: 100%;
+	left: -100%;
+	top: 100%;
+	transition: .3s;
+	z-index: -1;
+}
+.btn.btn-danger:hover:before{
+    top: 0;
+    left: 0;
+}
+/* responsive*/
+@media (max-width : 1200px){
+.menu_content{
+	top: 0;
+  height: 550px;
+  position: relative;
+  border-radius:0px;
+  box-shadow: none;		
+}
+.menu_content{
+	position: relative;
+  width: calc(100%-350px);
+  padding-left: 0;
+  margin-left: 0;
+  padding:80px ;
+  height: 550px;
+  box-shadow:none ;	
+  font-size:10px ;
+  margin-left: 80px;
+
+}
+}
+@media (max-width : 991px){
+.menu_content{
+	width:100% ;
+height: auto;
+}
+.menu_content{
+	width:100%;
+height: auto;
+border-radius:0px;
+flex-direction:row ;
+margin-left:100px ;
+
+}
+}
+@media (max-width :600px){
+.menu_content{
+	padding:50px ;
+  border-radius:0px;
+  flex-direction: column;
+  align-items: flex-start;	
+}
+.menu_content{
+	padding: 80px;	
+	margin-left:70px ;
+}
+}
+/* close responsive*/
+/*rocket*/
+.container3 {
+  max-width: 768px;
+  margin: 8% auto;
+  padding: 30px;
+  background: #fff;
+  color: #999;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: normal;
+}
+
+.container3 h1,
+.container3 h2 {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: red;
+}
+
+.container3 h2 {
+  margin-top: 30px;
+}
+
+#scrolltop {
+  display: none;
+}
+
+#rocketmeluncur {
+  position: fixed;
+  bottom: 50px;
+  z-index: 7;
+  display: none;
+  visibility: hidden;
+  width: 26px;
+  height: 48px;
+  right: 25px;
+  background: url(https://3.bp.blogspot.com/-GZOBULN1Q4s/VbNxQrf37EI/AAAAAAAAAPk/rak337seJ70/s1600/Ask.png) no-repeat 50% 0;
+  opacity: 0;
+  -webkit-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -webkit-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  -moz-transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), -moz-transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  transition: visibility .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), opacity .6s cubic-bezier(0.6, 0.04, 0.98, 0.335), transform .6s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+#rocketmeluncur i {
+  display: block;
+  margin-top: 48px;
+  height: 14px;
+  background: url(https://1.bp.blogspot.com/-UR9I7YEuEUY/VXIJn8MrBPI/AAAAAAAAKRE/qZObHBd5zIo/s1600/rocket.png) no-repeat 50% -48px;
+  opacity: .5;
+  -webkit-transition: -webkit-transform .2s;
+  -moz-transition: -moz-transform .2s;
+  transition: transform .2s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0
+}
+
+#rocketmeluncur:hover {
+  background-position: 50% -62px
+}
+
+#rocketmeluncur:hover i {
+  background-position: 50% 100%;
+  -webkit-animation: flaming .7s infinite;
+  -moz-animation: flaming .7s infinite;
+  animation: flaming .7s infinite
+}
+
+#rocketmeluncur.showrocket {
+  visibility: visible;
+  opacity: 1
+}
+
+#rocketmeluncur.launchrocket {
+  background-position: 50% -62px;
+  opacity: 0;
+  -webkit-transform: translateY(-800px);
+  -moz-transform: translateY(-800px);
+  -ms-transform: translateY(-800px);
+  transform: translateY(-800px);
+  pointer-events: none
+}
+
+#rocketmeluncur.launchrocket i {
+  background-position: 50% 100%;
+  -webkit-transform: scale(1.4, 3.2);
+  -moz-transform: scale(1.4, 3.2);
+  transform: scale(1.4, 3.2)
+}
+/*close css rok*/
+</style>
+</head>
+<!--popup css-->
+<style>
+
+
+.pseudo {
+  position: relative;
+}
+
+.pseudo:before {
+  content: "";
+  position: absolute;
+  width: 96%;
+  top: 5px;
+  left: 2%;
+  border-bottom: 1px dashed #000;
+}
+
+.panel-dark {
+  background-color: #f7f7f7;
+  border-color: #f7f7f7;
+  width:400px ;
+
+  box-shadow: 0 5px 15px #ccc;
+}
+
+.pseudo:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 10px;
+  bottom: -10px;
+  left: 0;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0) 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, rgba(0, 0, 0, 0) 66.667%), linear-gradient(-45deg, rgba(0, 0, 0, 0) 33.333%, #f7f7f7 33.333%, #f7f7f7 66.667%, rgba(0, 0, 0, 0) 66.667%);
+  background-size: 20px 40px;
+  background-position: 50% -30px;
+  background-repeat: repeat-x;
+  z-index: 1;
+}
+
+.container-print {
+  padding: 0;
+}
+
+@-webkit-keyframes shake-it-baby{
+  0% {
+    height: 0px;
+    transform: translate(-0.5px, 0.5px) rotate(-0.1deg);
+  }
+  10% {
+    height: 10px;
+    transform: translate(0.5px, -0.5px) rotate(0.1deg);
+  }
+  20% {
+    height: 20px;
+    transform: translate(-0.5px, 0.5px) rotate(-0.1deg);
+  }
+  30% {
+    height: 35px;
+    transform: translate(0.5px, -0.5px) rotate(0.1deg);
+  }
+  40% {
+    height: 50px;
+    transform: translate(-0.5px, 0.5px) rotate(-0.1deg);
+  }
+  50% {
+    height: 70px;
+    transform: translate(0.5px, -0.5px) rotate(0.1deg);
+  }
+  60% {
+    height: 75px;
+    transform: translate(-0.5px, 0.5px) rotate(-0.1deg);
+  }
+  70% {
+    height: 95px;
+    transform: translate(0.5px, -0.5px) rotate(0.1deg);
+  }
+  80% {
+    height: 105px;
+    transform: translate(-0.5px, 0.5px) rotate(-0.1deg);
+  }
+  90% {
+    height: 125px;
+    transform: translate(0.5px, -0.5px) rotate(0.1deg);
+  }
+  100% {
+    height: 140px;
+    transform: translate(-0.5px, 0.5px) rotate(-0.1deg);
+  }
+}
+
+.container-print .panel-body {
+  animation: shake-it-baby 1s;
+  overflow: hidden;
+  margin-left:50px ;
+}
+
+
+
+
+
+
+
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+
+
+.popup-scroll{
+  overflow-y: scroll;
+  max-height: 300px;
+  padding:0 1em 0 0;
+}
+.popup-scroll::-webkit-scrollbar {background-color:#EEE;width:10px;}
+.popup-scroll::-webkit-scrollbar-thumb {
+	border:1px #EEE solid;border-radius:2px;background:#777;
+	-webkit-box-shadow: 0 0 8px #555 inset;box-shadow: 0 0 8px #555 inset;
+	-webkit-transition: all .3s ease-out;transition: all .3s ease-out;
+	}
+.popup-scroll::-webkit-scrollbar-track {-webkit-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;}	
+
+
+/* FARM HOUSE*/
+#fifty-fifty-slider-stack-id {
+  border-radius: 10px;
+  max-width: 1000px;
+  min-height: 450px;
+  padding: 0;
+  display: flex;
+  margin: 50px auto;
+  overflow: hidden;
+  list-style: none;
+  position: relative;
+  align-items: stretch;
+  font-family: "Nunito";
+  transition: all 0s ease-in-out;
+}
+
+#fifty-fifty-slider-stack-id .ffs-slide {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  bottom: auto;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: absolute;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform: all 0.3s ease-in-out;
+}
+#fifty-fifty-slider-stack-id .ffs-slide.active .ffs-slide-content {
+  transform: translateX(0%);
+}
+#fifty-fifty-slider-stack-id .ffs-slide.active .ffs-slide-image {
+  transform: translateX(0%);
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content, #fifty-fifty-slider-stack-id .ffs-slide-image {
+  width: 50%;
+  flex: 0 1 auto;
+  position: relative;
+  pointer-events: auto;
+  box-sizing: border-box;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content {
+  z-index: 2;
+  display: flex;
+  position: relative;
+  padding-bottom: 50px;
+  transform: translateX(200%);
+  transition: transform 0.6s 0s ease-in-out;
+  flex-direction: column;
+  justify-content: center;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content-inner {
+  padding: 20px 25px;
+  box-sizing: border-box;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content .ffs-slide-title {
+  color: white;
+  font-size: 30px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content .ffs-slide-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 22.4px;
+  margin-top: 20px;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content .ffs-slide-action {
+  color: white;
+  font-size: 16px;
+  padding: 7px 20px;
+  border: 2px solid;
+  background: none;
+  border-radius: 30px;
+  border-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-content .ffs-slide-action:hover {
+  color: white;
+  background: none;
+  border-color: white;
+}
+#fifty-fifty-slider-stack-id .ffs-slide-image {
+  z-index: 1;
+  transform: translateX(100%);
+  transition: transform 0s 0.3s ease-in-out;
+}
+
+#fifty-fifty-slider-stack-id .ffs-nav {
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 10;
+  color: white;
+  display: flex;
+  padding: 10px 20px;
+  position: absolute;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: flex-end;
+}
+#fifty-fifty-slider-stack-id .ffs-nav-count {
+  font-size: 14px;
+  margin-right: auto;
+}
+#fifty-fifty-slider-stack-id .ffs-nav a {
+  width: 50px;
+  height: 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+  opacity: 0.5;
+  display: flex;
+  color: inherit;
+  line-height: 0;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0%);
+  transition: all 0.3s ease-in-out;
+}
+#fifty-fifty-slider-stack-id .ffs-nav a i {
+  line-height: 0;
+  font-size: 20px;
+}
+#fifty-fifty-slider-stack-id .ffs-nav a:hover {
+  opacity: 1;
+}
+#fifty-fifty-slider-stack-id .ffs-nav a:first-of-type {
+  margin-right: 10px;
+}
+#fifty-fifty-slider-stack-id.slide-end .ffs-nav a.next {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(100%);
+}
+#fifty-fifty-slider-stack-id.slide-start .ffs-nav a.prev {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(100%);
+}
+
+#fifty-fifty-slider-stack-id.height-set .ffs-slide {
+  bottom: 0;
+}
+#fifty-fifty-slider-stack-id.hide-titles .ffs-slide-title {
+  display: none;
+}
+#fifty-fifty-slider-stack-id.hide-text .ffs-slide-text {
+  display: none;
+}
+#fifty-fifty-slider-stack-id.hide-actions .ffs-slide-action {
+  display: none;
+}
+#fifty-fifty-slider-stack-id.content-top .ffs-slide-content {
+  justify-content: flex-start;
+}
+#fifty-fifty-slider-stack-id.content-center {
+  justify-content: center;
+}
+#fifty-fifty-slider-stack-id.content-bottom {
+  justify-content: flex-end;
+}
+
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(1) .ffs-slide-content {
+  background: #2484a1;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(1) .ffs-slide-image {
+  background: url(images/beed1.jpg) no-repeat center center;
+  background-size: cover;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(2) .ffs-slide-content {
+  background: #2484a1;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(2) .ffs-slide-image {
+  background: url(images/sit.jpg) no-repeat center center;
+  background-size: cover;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(3) .ffs-slide-content {
+  background: #2484a1;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(3) .ffs-slide-image {
+  background: url(images/snookertab.jpg) no-repeat center center;
+  background-size: cover;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(4) .ffs-slide-content {
+  background: #2484a1;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(4) .ffs-slide-image {
+  background: url(images/abshar.png) no-repeat center center;
+  background-size: cover;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(5) .ffs-slide-content {
+  background: #2484a1;
+}
+#fifty-fifty-slider-stack-id .ffs-slide:nth-of-type(5) .ffs-slide-image {
+  background: url(images/gard.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+
+@media (max-width: 500px) {
+  #fifty-fifty-slider-stack-id {
+    min-height: 450px;
+  }
+  #fifty-fifty-slider-stack-id .ffs-nav {
+    width: 100%;
+  }
+  #fifty-fifty-slider-stack-id .ffs-slide {
+    width: 100%;
+    flex: 1 0 auto;
+    flex-direction: column-reverse;
+  }
+  #fifty-fifty-slider-stack-id .ffs-slide-content {
+    width: 100%;
+    flex: 1 0 auto;
+    transform: translateX(100%);
+  }
+  #fifty-fifty-slider-stack-id .ffs-slide-image {
+    width: 100%;
+    height: 300px;
+    flex: 0 1 auto;
+    transform: translateX(100%);
+    transition: transform 0.6s 0s ease-in-out;
+  }
+  #fifty-fifty-slider-stack-id.mobile-nav-top .ffs-slide-content {
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
+  #fifty-fifty-slider-stack-id.mobile-nav-top .ffs-nav {
+    top: 300px;
+    bottom: auto;
+  }
+  #fifty-fifty-slider-stack-id.mobile-nav-top.slide-start .ffs-nav a.prev {
+    transform: translateY(-100%);
+  }
+  #fifty-fifty-slider-stack-id.mobile-nav-top.slide-end .ffs-nav a.next {
+    transform: translateY(-100%);
+  }
+}
+</style>
+<!--popup css-->
+  <body>
+<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+			<a class="navbar-brand" href="index.html"><img src="final2-removebg-preview.png" height="60px" alt="">Picnic<span>Games</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+		
+			
+				  <li class="nav-item  dropdown">
+				  <a class="nav-link dropdown-toggle" href="games.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Games
+				  </a>
+				  <ul  class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+	  <li >
+		<a class="dropdown-item" href="#">
+		 Indoor &raquo;
+		</a>
+		<ul id="main30"  class="dropdown-menu dropdown-submenu">
+		  <li>
+			<a class="dropdown-item" href="Kids.html">Kids</a>
+		  </li>
+		  <li>
+			<a class="dropdown-item" href="Males.html">Males</a>
+		  </li>
+		  <li>
+			<a class="dropdown-item" href="Females.html">Females</a>
+		  </li>
+		  <li>
+			<a class="dropdown-item" href="Family.html">Family</a>
+		  </li>
+	   
+	   
+			 
+		 
+		</ul>
+	  </li>
+	  <li>
+		<a class="dropdown-item" href="#">
+		 Outdoor &raquo;
+		</a>
+			<ul id="main30" class="dropdown-menu dropdown-submenu">
+		  <li>
+			<a class="dropdown-item" href="outkids.html">Kids</a>
+		  </li>
+		  <li>
+			<a class="dropdown-item" href="outmales.html">Males</a>
+		  </li>
+		  <li>
+			<a class="dropdown-item" href="outFemales.html">Females</a>
+		  </li>
+		  <li>
+			<a class="dropdown-item" href="outFamily.html">Family</a>
+		  </li>
+	   
+	   
+			 
+		 
+		</ul>
+	  </li>
+	</ul>
+				
+	          <li class="nav-item"><a href="restaurant.html" class="nav-link">Restaurant</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+			  <li class="nav-item"><a href="others.html" class="nav-link">Farm House</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+	<!--carousel css-->
+		<div class="hero">
+	    <section class="home-slider owl-carousel">
+	      <div class="slider-item" style="background-image:url('images/Carousel-1.jpg');">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-end">
+	          <div class="col-md-6 ftco-animate">
+	          	<div class="text">
+	          		<h2>More than a Dream... an experience</h2>
+		            <h1 class="mb-3">Play and Enjoy With Family and Friends..All over Year</h1>
+	            </div>
+	          </div>
+	        </div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item" style="background-image:url('images/Carousel-2.jpg');">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row no-gutters slider-text align-items-center justify-content-end">
+	          <div class="col-md-6 ftco-animate">
+	          	<div class="text">
+	          		<h2>Picnic &amp; Games</h2>
+		            <h1 class="mb-3">Enjoy Yourself And Family</h1>
+	            </div>
+	          </div>
+	        </div>
+	        </div>
+	      </div>
+		  <div class="slider-item" style="background-image:url('images/Carousel-3.jpg');">
+			<div class="overlay"></div>
+		  <div class="container">
+			<div class="row no-gutters slider-text align-items-center justify-content-end">
+			<div class="col-md-6 ftco-animate">
+				<div class="text">
+					<h2>Picnic &amp; Games</h2>
+				  <h1 class="mb-3">You Can Also Play with your Food!</h1>
+			  </div>
+			</div>
+		  </div>
+		  </div>
+		</div>
+	    </section>
+	  </div>
+<!--carousel css-->
+<!--check in time css-->
+    <section class="ftco-booking ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row no-gutters">
+    			<div class="col-lg-12">
+    				<form action="#" class="booking-form aside-stretch">
+	        		<div class="row">
+	        			<div class="col-md d-flex py-md-4">
+	        				<div class="form-group align-self-stretch d-flex align-items-end">
+	        					<div class="wrap align-self-stretch py-3 px-4">
+									<label for="#">Check-in time</label>
+									<input type="time" class="timepicker"  placeholder="Check-in time">
+								</div>
+								</div>
+									
+	        			</div>
+	        			<div class="col-md d-flex py-md-4">
+	        				<div class="form-group align-self-stretch d-flex align-items-end">
+	        					<div class="wrap align-self-stretch py-3 px-4">
+									<label for="#">Check-out time</label>
+									<input type="time" class="timepicker"   placeholder="Select time">
+								</div>				</div>
+	        			</div>
+	        			<div class="col-md d-flex py-md-4">
+	        				<div class="form-group align-self-stretch d-flex align-items-end">
+	        					<div class="wrap align-self-stretch py-3 px-4">
+			      					<label for="#">Packages</label>
+			      					<div class="form-field">
+			        					<div class="select-wrap">
+			                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+			                    <select name="" id="" class="form-control">
+			                    	<option value="">Select </option>
+			                      <option value="">PLatinum</option>
+			                      <option value="">Gold</option>
+			                      <option value="">Silver</option>
+			                      			                    </select>
+			                  </div>
+				              </div>
+				            </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md d-flex py-md-4">
+	        				<div class="form-group align-self-stretch d-flex align-items-end">
+	        					<div class="wrap align-self-stretch py-3 px-4">
+			      					<label for="#">Guests</label>
+			      					<div class="form-field">
+			        					<div class="select-wrap">
+			                    
+								<input type="number">
+							
+								</div>
+				              </div>
+				            </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md d-flex">
+	        				<div class="form-group d-flex align-self-stretch">
+			             
+								<button type="button" class="btn btn-primary py-5 py-md-3 px-4 align-self-stretch d-block" data-toggle="modal" data-target="#myModal">		<span>Book Your Ticket<small>Best Deals We Have!</small></span></button>
+			            </div>
+					    </div>
+				
+	        		</div>
+	        	</form>
+	    		</div>
+    		</div>
+    	</div>
+	</section>
+	<!--check in time css-->
+<!--Ticket Book -->
+<div class="container1">
+	
+	  <div class="modal fade" id="myModal" role="dialog">
+	  <div class="modal-dialog">
+		
+	   <div class="modal-content">
+		<div class="modal-header">
+			<h4 class="modal-title">Book Now</h4>
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		  
+		</div>
+		
+		<div class="modal-body">
+		  <form role="form" method="post" action="" onsubmit="return validationForm()" >
+		   <label for="fName">First Name</label>
+			<input type="text" class="form-control" id="fName" required><br>
+		   <label for="lName">Last Name</label>
+			<input type="text" class="form-control" id="lName"><br>
+		   <label for="emailId">Email Id</label>
+			<input type="email" class="form-control" id="emailId"><br>
+		   <label for="mobileNo" >Mobile No.</label>
+			<input type="mobileNo" class="form-control" id="mobileNo" required><br>
+			<label for="doctorName">Adult</label>
+			<input type="number" class="form-control" id="doctorName" placeholder="1200PKR Adult" >
+			<br>  
+		   <label for="hospitalName">Child</label>
+		   <input type="number" class="form-control" id="doctorName" placeholder="700PKR Child" ><br>
+	
+	<label for="datetimepicker11">Preferred Date & Time</label>
+	<div class="container">
+		<div class="col-sm-6 col-md-6">
+			<div class="form-group">
+				<div class='input-group date' id='datetimepicker11'>
+					<input type='date' class="form-control" />
+					<span class="input-group-addon">
+						<span class="glyphicon glyphicon-calendar">
+						</span>
+					</span>
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript">
+			$(function () {
+				$('#datetimepicker11').datetimepicker({
+				   daysOfWeekDisabled: []
+				});
+			});
+		</script>
+	</div><br>
+			
+			<div class="form-group">
+	  <label for="comment">Reasone</label>
+	  <textarea class="form-control" rows="5" id="comment"></textarea>
+	</div>
+	<a class="btn btn-primary" data-popup-open="popup-1" href="#">BOOK NOW</a>
+			
+		  </form>
+		 
+		 </div> 
+		 
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		 </div>
+	  </div>
+	  </div>
+		<!--Pop up menu-->
+
+ 
+<div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
+		<div style="margin-top: 20px;">
+			<div class="row">
+			  <div class="col-sm-8 col-sm-offset-2">
+				<div class="tab"></div>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6 col-sm-offset-3 container-print">
+				<div class="panel panel-dark panel-default pseudo">
+				  <div class="panel-body">
+					<div class="row">
+					  <div style="margin-top:40px ;" class="col-sm-8">Total amount</div>
+					  <div style="margin-top:40px ;" class="col-sm-4">-</div>
+					</div>
+					<div class="row">
+					  <div  class="col-sm-8">Discount</div>
+					  <div  class="col-sm-4">-</div>
+					</div>
+					<hr />
+					<div class="row">
+					  <div style="margin-top:-40px ;" class="col-sm-8">Payable amount</div>
+					  <div style="margin-top:-40px ;" class="col-sm-4">-</div>
+					</div>
+					<div class="row text-center">
+					  <button onclick="myFunction()"  style="width:200px ; " class="btn btn-success">
+						confirm
+					  </button>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  
+		  </div>
+       
+       <div class="popup-scroll"><p>
+         
+         </p></div>
+        <p><a data-popup-close="popup-1" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+    </div>
+</div>
+<!--pop close-->
+	  </div>
+	</div>
+
+
+<!--Ticket close -->
+</div>
+<div class="card-footer bg-black"></div>
+</div><br><br><br><br>
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 heading-section text-center ftco-animate">
+	<span class="subheading">Welcome to Picnic Games</span>
+  <h2 class="mb-4">Enjoy As Much As You Can</h2>
+</div>
+</div> 
+
+<section style="margin-top:-400px ;" class="ftco-section ftco-animate">
+<div class="container">
+<div class="row">
+	<div class="col-md-3" >
+	  <a href="#">
+		<div  id="gg" class="card service-card card-inverse services">
+		  <div class="card-block">
+			<span  style="margin-left:90px ; margin-top:20px ;" class="  fa-solid fa-earth-europe fa-3x"></span>
+			<h4 style="margin-left:40px;" class="card-title">Fresh Enviroment</h4>
+		  </div>
+		</div>
+	  </a>
+	</div>
+	<div class="col-md-3">
+	  <a href="#">
+		<div class="card service-card card-inverse services ">
+		  <div class="card-block">
+			<span style="margin-left:95px ;" class="flaticon-serving-dish fa-3x"></span>
+			<h4 style="margin-left:70px ;margin-top:-15px ;" class="card-title">Easy Food</h4>
+		  </div>
+		</div>
+	  </a>
+	</div>
+	<div  class="col-md-3">
+	  <a href="#">
+		<div class="card service-card card-inverse services">
+		  <div class="card-block">
+			<span style="margin-left:85px ;margin-top:20px ;" class="fa-solid fa-person-praying fa-3x"></span>
+			<h4 style="margin-left:70px ;" class="card-title">Pray Area</h4>
+		  </div>
+		</div>
+	  </a>
+	</div>
+	<div class="col-md-3">
+	  <a href="#">
+		<div class="card service-card card-inverse services">
+		  <div class="card-block">
+			<span style="margin-left:90px ; " class="ion-ios-bed fa-3x"></span>
+			<h4 style="margin-left:50px ;margin-top:-15px ;" class="card-title">Farm House</h4>
+		  </div>
+		</div>
+	  </a>
+	</div>
+
+</div>
+
+</section>
+<!--Ticket Book -->
+<br><br><br><br>
+<!--Games Sect -->
+<section class="ftco-section ftco-no-pb ftco-room">
+	<div class="container-fluid px-0">
+	  <div class="row no-gutters justify-content-center mb-5 pb-3">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		  <span class="subheading">Picnic Games the most Attractive Games ever exist.</span>
+		  <h2 class="mb-4">Picnic Games</h2>
+		</div>
+	  </div>  
+	  <div class="container-fluid">
+		<div class="row ftco-animate">
+			  <div class="col-sm-4 ">
+				<div class="card1">
+				  <div class="img-cover"><img src="images/foot.jpg">
+					<div class="icon1"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3" />
+					</svg>
+					</div>
+				  </div>
+				  <div class="desc">
+					<h2>Football</h2>
+					<p class="tdesc">Few things can rival football as a spectator sport and this is also matched by the number of people who participate in the sport, be it at grassroots level, 5-a-side.</p>
+					<a href="viewdetail 30.html">View Detail<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3" />
+					</svg></a>
+				  </div>
+				  </div>
+			</div>
+			<div class="col-sm-4">
+			  <div class="card1">
+				<div class="img-cover"><img src="images/volly.jpg">
+				<div class="icon1"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3" />
+				  </svg>
+				</div>
+				</div>
+				<div class="desc">
+				<h1>volly Ball</h1>
+				<p class="tdesc">The match can last anywhere from three to five sets, and the first team to win three sets wins the game. These games will last anywhere from 90 minutes to around two and a half hours, including breaks. Best 3-of-5 sets are often played at the varsity, college, and international indoor volleyball levels.</p>
+				<a href="viewdetail 43.html">View Detail<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3" />
+				  </svg></a>
+				</div>
+			  </div>
+			</div>
+			<div class="col-sm-4">
+			  <div class="card1">
+				<div class="img-cover"><img src="images/kab1.jpg">
+				<div class="icon1"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3" />
+				  </svg>
+				</div>
+				</div>
+			  
+				<div class="desc">
+				<h1>Kabadi</h1>
+				<p class="tdesc">Stooping hand touch, turning hand touch and running hand touch in kabaddi are the few moves that a raider in kabaddi should master
+		
+				</p>
+				<a href="viewdetail 32.html">View Detail <svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+				  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3" />
+				  </svg></a>
+				</div>
+			  </div>
+			</div>
+		
+		
+			<div class="col-sm-4 ftco-animate">
+				<div class="card1">
+					<div class="img-cover"><img src="images/ludoo3.png">
+					  <div class="icon1"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+						  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3" />
+						</svg>
+					  </div>
+					</div>
+					<div class="desc">
+					  <h2>Ludo</h2>
+					  <p class="tdesc">Like other cross and circle games, Ludo is derived from the Indian game Pachisi. The game and its variations are popular in many countries and under various names.</p>
+					  <a href="viewdetail18.html">View Detail<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+						  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3" />
+						</svg></a>
+					</div>
+				  </div>
+		  </div>
+		  <div class="col-sm-4 ftco-animate">
+			<div class="card1">
+				<div class="img-cover"><img src="images/ches.jpg">
+				  <div class="icon1"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3" />
+					</svg>
+				  </div>
+				</div>
+				<div class="desc">
+				  <h1>Chess</h1>
+				  <p class="tdesc">In chess, Fool's Mate, also known as the "two-move checkmate", is the checkmate delivered after the fewest possible moves from the game's starting position. It can be achieved only by Black, giving checkmate on the second move with the queen. ... Even among rank beginners, this checkmate rarely occurs in practice.</p>
+				  <a href="viewdetail19.html">View Detail<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3" />
+					</svg></a>
+				</div>
+			  </div>
+		  </div>
+		  <div class="col-sm-4 ftco-animate">
+			<div class="card1">
+				<div class="img-cover"><img src="images/table-tennis-pro.jpg">
+				  <div class="icon1"><svg width="23" height="18" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="black" stroke-width="3" />
+					</svg>
+				  </div>
+				</div>
+				<div class="desc">
+				  <h1>Table Tennis</h1>
+				  <p class="tdesc">In table tennis only the serve has to hit the table on each side of the net, whereas in ping pong every shot has to hit the table on both sides of the net.</p>
+				  <a href="viewdetail21.html">View Detail<svg width="19" height="14" viewBox="0 0 23 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+					  <path d="M0 9H22M12 1.5L20.9333 8.2C21.4667 8.6 21.4667 9.4 20.9333 9.8L12 16.5" stroke="white" stroke-width="3" />
+					</svg></a>
+				</div>
+			  </div>
+		  </div>
+			  
+		</div>
+			</div>
+		  
+		<br><br>  
+	</div>
+  </section>
+<!--Games Sect close -->
+<!--About Us-->
+<br><br><br><br><br><br>
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 heading-section text-center ftco-animate">
+	<span class="subheading"> Picnic Games</span>
+  <h2 class="mb-4">ABOUT US </h2>
+</div>
+</div> 
+<section style="margin-top:-200px ;"  class="about-section ftco-animate">
+	<div class="container">
+		<div class="row">                
+			<div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+				<div class="inner-column">
+					<div class="sec-title">
+						<br><br><br><span class="title ftco-animate">Picnic Games</span>
+						<h2>OUTDOOR GAMES</h2>
+					</div>
+					<div class="text">Indoor Games are played within a closed environment and a number of them are played by sitting at one place. They include chess, card games, games played with gamesmen and dice, carom, etc. whereas, outdoor games are played on the ground or at least in open environment. Games such as kabaddi, kho-kho are outdoor games</div>
+				  <div class="text">
+					Outdoor activities help us in muscle strengthening and improve stamina. People are more prone to bone diseases and joint pain due to a lack of vitamin D and calcium because of staying indoors all the time. Fresh air and sunshine can naturally provide us with Vitamin D.
+				  </div>
+					<div class="btn-box">
+						<a href="about.html" class="theme-btn btn-style-one">More Detail</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Image Column -->
+			<div class="image-column col-lg-6 col-md-12 col-sm-12">
+				<div class="inner-column wow fadeInLeft">
+				
+					<figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img class="iht" title="Rahul Kumar Yadav" src="https://cdn.dribbble.com/users/5976/screenshots/2028880/media/7911131ed148cb3b8aa83238589f0b70.gif" alt=""></a></figure>
+				 
+				</div>
+			</div>
+
+			
+		  
+		</div>
+		<br><br><br><br><br><br><br>
+		<div class="row ftco-animate">                
+			<div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+				<div class="inner-column">
+					<div class="sec-title">
+						<br><br><br><span class="title">Picnic Games</span>
+						<h2>INDOOR GAMES</h2>
+					</div>
+					<div class="text">Indoor Games are played within a closed environment and a number of them are played by sitting at one place. They include chess, card games, games played with gamesmen and dice, carom, etc. whereas, outdoor games are played on the ground or at least in open environment. Games such as kabaddi, kho-kho are outdoor games</div>
+				  <div class="text">
+					Indoor Games are played within a closed environment and a number of them are played by sitting at one place. They include chess, card games, games played with gamesmen and dice, carom, etc. whereas, outdoor games are played on the ground or at least in open environment. Games such as kabaddi, kho-kho are outdoor games
+				  </div>
+					<div class="btn-box">
+						<a href="about.html" class="theme-btn btn-style-one">More Detail</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Image Column -->
+			<div class="image-column col-lg-6 col-md-12 col-sm-12">
+				<div class="inner-column wow fadeInLeft">
+				
+					<figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img class="iht" title="Rahul Kumar Yadav" src="images/Indoor Games-1.gif" width="400px" alt=""></a></figure>
+				 
+				</div>
+			</div>  
+		</div>
+	   <div class="sec-title ftco-animate">
+						<span class="title">Our Future Goal</span>
+						<h2>We want to lead in innovation & Technology</h2>
+					</div>
+	  <div class="text ftco-animate">
+			
+For those who just want to relax and play there are indoor games 
+		  </div>
+		   <div class="text ftco-animate">
+			and outdoor games where you'll find plenty of things to do, from zipping down our sparkling slides to thrilling rides.
+		  </div>
+		   <div class="text ftco-animate">                
+ You can play as much or as little as you want in a safe environment for you and your family and our team is always working to make it even better.
+		  </div>
+		   <div class="text ftco-animate">
+			and our team is always working to make it even better.
+		  </div>
+		   <div class="text ftco-animate">
+			
+In the end, I would say keep visiting our website and enjoy the quality content.
+		  </div>
+	</div>
+</section>
+<!--About Us close-->
+
+    <!--Farmhouse-->
+<br><br><br><br><br><br>
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 heading-section text-center ftco-animate">
+	<span class="subheading"> Picnic Games</span>
+  <h2 class="mb-4">Farm House </h2>
+</div>
+</div> 
+<ul class='content-center mobile-nav-top slide-start ftco-animate' id='fifty-fifty-slider-stack-id'>
+	<div class='ffs-nav ftco-animate'>
+	  <div class='ffs-nav-count ftco-animate'>
+		<span class='ffs-current ftco-animate'>1</span>
+		<span>/</span>
+		<span class='ffs-total ftco-animate'>5</span>
+	  </div>
+	  <a class='prev ftco-animate'>
+		<i class="fa fa-arrow-left ftco-animate"></i>
+	  </a>
+	  <a class='next ftco-animate'>
+		<i class="fa fa-arrow-right ftco-animate"></i>
+	  </a>
+	</div>
+	<li class='ffs-slide active the-one ftco-animate'>
+	  <div class='ffs-slide-content ftco-animate'>
+		<div class='ffs-slide-content-inner ftco-animate'>
+		  <h2 class='ffs-slide-title ftco-animate'>Bed Room</h2>
+		  <div class='ffs-slide-text ftco-animate'>
+			<p>3 superior rooms’ with A/C .Each of the rooms has a luxury bathroom, TV with satellite and is individually designed to include everything you could wish for.</p>
+		  </div>
+		  <a class='ffs-slide-action ftco-animate' href='others.html'>View More</a>
+		</div>
+	  </div>
+	  <div class='ffs-slide-image ftco-animate'></div>
+	</li>
+	<li class='ffs-slide'>
+	  <div class='ffs-slide-content'>
+		<div class='ffs-slide-content-inner'>
+		  <h2 class='ffs-slide-title'>Sitting Area</h2>
+		  <div class='ffs-slide-text'>
+			<p>The Shangrila farmhouse has been dedicatedly designed with a contemporary countryside touch that will make you feel just like your home in a modern village.</p>
+
+		  </div>
+		  <a class='ffs-slide-action' href='others.html'>View More</a>
+		</div>
+	  </div>
+	  <div class='ffs-slide-image'></div>
+	</li>
+	<li class='ffs-slide'>
+	  <div class='ffs-slide-content'>
+		<div class='ffs-slide-content-inner'>
+		  <h2 class='ffs-slide-title'>Indoor Games</h2>
+		  <div class='ffs-slide-text'>
+			<p>The farmhouse is an awesome venue for your comfort and luxury. It has three exceptional luxurious air conditioned rooms. The farmhouse sits in extensive ground with outdoor and covered dining areas near swimming pool.</p>
+		  </div>
+		  <a class='ffs-slide-action' href='others.html'>View More</a>
+		</div>
+	  </div>
+	  <div class='ffs-slide-image'></div>
+	</li>
+	<li class='ffs-slide'>
+		<div class='ffs-slide-content'>
+		  <div class='ffs-slide-content-inner'>
+			<h2 class='ffs-slide-title'>AAbshar</h2>
+			<div class='ffs-slide-text'>
+			  <p>Beautiful Natural look of AAbshar</p>
+			</div>
+			<a class='ffs-slide-action' href='others.html'>View More</a>
+		  </div>
+		</div>
+		<div class='ffs-slide-image'></div>
+	  </li>
+	  <li class='ffs-slide'>
+		<div class='ffs-slide-content'>
+		  <div class='ffs-slide-content-inner'>
+			<h2 class='ffs-slide-title'>Lush Green Garding</h2>
+			<div class='ffs-slide-text'>
+			  <p>Beautiful Garden with quantity of different flowers and decorative items.</p>
+			</div>
+			<a class='ffs-slide-action' href='others.html'>View More</a>
+		  </div>
+		</div>
+		<div class='ffs-slide-image'></div>
+	  </li>
+
+
+
+  </ul>
+
+  
+  <!--farmhouse close-->
+<!--REsturant open-->
+		
+<br><br><br><br><br><br>
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 heading-section text-center ftco-animate">
+	<span class="subheading"> Picnic Games</span>
+  <h2 class="mb-4">Restaurant</h2>
+</div>
+</div> 
+
+<section id="our_menu" class="pt-5 pb-5">
+	<div class="container">
+		
+		
+		<div class="row">
+			<ul class="nav nav-tabs menu_tab mb-4 ftco-animate" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab">Breakfast</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab">Dinner</a>
+				</li>
+			</ul>
+		</div>
+		<div style="margin-top:-300px ;" class="row">
+			<div class="tab-content col-lg-12 ftco-animate" id="myTabContent">
+				<div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="single_menu ftco-animate">
+								<img src="images/nihar.jpg" alt="burger">
+								<div class="menu_content">
+									<h4>Nihary  <span>250 PKR</span></h4>
+									<p c>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="images/nan.jpg" alt="black coffee">
+								<div class="menu_content">
+									<h4>Nan Chaney<span>150 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="images/halwa.jpg" alt="fried rice">
+								<div class="menu_content">
+									<h4>Halwa Puri  <span>100 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="images/hale.jpg" alt="meat">
+								<div class="menu_content">
+									<h4>Haleem  <span>200 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single_menu ftco-animate">
+								<img src="images/hale.jpg" alt="burger">
+								<div class="menu_content">
+									<h4>Haleem  <span>200 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+								<div class="menu_content">
+									<h4> Tea<span>50</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="images/halwa.jpg" alt="fried rice">
+								<div class="menu_content">
+									<h4>Halwa Puri<span>100 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="images/nihar.jpg" alt="meat">
+								<div class="menu_content">
+									<h4>Nihary<span>200 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/Aowufa1.jpg" alt="pizza">
+								<div class="menu_content">
+									<h4>12" Pizza  <span>1500 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/DJlmZDJ.jpg" alt="salad">
+								<div class="menu_content">
+									<h4>Salad <span>200 PKR</span></h4>
+									<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/knnQm7e.jpg" alt="green tea">
+								<div class="menu_content">
+									<h4>green tea <span>150 PKR</span></h4>
+									<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+								<div class="menu_content">
+									<h4>meat  <span>800 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+								<div class="menu_content">
+									<h4>Chicken Burger  <span>350 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+								<div class="menu_content">
+									<h4>Black coffee <span>150 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+								<div class="menu_content">
+									<h4>Fried Rice  <span>200 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+								<div class="menu_content">
+									<h4>meat  <span>700 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+								<div class="menu_content">
+									<h4>Chicken Burger  <span>200 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+								<div class="menu_content">
+									<h4>Black coffee <span>150 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+								<div class="menu_content">
+									<h4>Fried Rice  <span>300 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+								<div class="menu_content">
+									<h4>meat  <span>700 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/kbpceNv.jpg" alt="burger">
+								<div class="menu_content">
+									<h4>Chicken Burger  <span>200 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/lYKUORL.jpg" alt="black coffee">
+								<div class="menu_content">
+									<h4>Black coffee <span>150 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/AXAHrf6.jpg" alt="fried rice">
+								<div class="menu_content">
+									<h4>Fried Rice  <span>300 PKR</span></h4>
+									<p >Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+							<div class="single_menu ftco-animate">
+								<img src="https://i.imgur.com/YkDi8Nb.jpg" alt="meat">
+								<div class="menu_content">
+									<h4>meat  <span>700 PKR</span></h4>
+									<p>Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="restaurant.html" class=" menu_btn btn btn-primary ftco-animate">view more</a>
+		</div>
+	</div>
+</section>
+<!--REsturant close-->
+<!--Rocekt-->
+	<a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ><i></i></a>
+	<!--close rocket-->
+<!--Footer-->
+    <footer class="ftco-footer ftco-section img" style="background-image: url(images/bg_4.jpg);">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Picnic Games</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Useful Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Picnic Games</a></li>
+                <li><a href="#" class="py-2 d-block">Indoor</a></li>
+                <li><a href="#" class="py-2 d-block">Outdoor</a></li>
+                <li><a href="#" class="py-2 d-block">Restaurant</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Privacy</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Career</a></li>
+                <li><a href="#" class="py-2 d-block">About Us</a></li>
+                <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                <li><a href="#" class="py-2 d-block">Services</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Aptech Education North Nazimabad Karachi</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">zk305139@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Picnic Games <i class="icon-heart color-danger" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer close-->
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script></script>
+  <!--rocekt-->
+  <script>jQuery(window).scroll(function(){
+    if(jQuery(window).scrollTop()<50){
+        jQuery('#rocketmeluncur').slideUp(500);
+    }else{
+        jQuery('#rocketmeluncur').slideDown(500);
+    }
+    var ftrocketmeluncur = jQuery("#ft")[0] ? jQuery("#ft")[0] : jQuery(document.body)[0];
+    var scrolltoprocketmeluncur = $('rocketmeluncur');
+var viewPortHeightrocketmeluncur = parseInt(document.documentElement.clientHeight);
+var scrollHeightrocketmeluncur = parseInt(document.body.getBoundingClientRect().top);
+var basewrocketmeluncur = parseInt(ftrocketmeluncur.clientWidth);
+var swrocketmeluncur = scrolltoprocketmeluncur.clientWidth;
+if (basewrocketmeluncur < 1000) {
+var leftrocketmeluncur = parseInt(fetchOffset(ftrocketmeluncur)['left']);
+leftrocketmeluncur = leftrocketmeluncur < swrocketmeluncur ? leftrocketmeluncur * 2 - swrocketmeluncur : leftrocketmeluncur;
+scrolltoprocketmeluncur.style.left = ( basewrocketmeluncur + leftrocketmeluncur ) + 'px';
+} else {
+scrolltoprocketmeluncur.style.left = 'auto';
+scrolltoprocketmeluncur.style.right = '10px';
+}
+})
+
+jQuery('#rocketmeluncur').click(function(){
+    jQuery("html, body").animate({ scrollTop: '0px',display:'none'},{
+            duration: 600,  
+            easing: 'linear'
+        });
+    
+    var self = this;
+    this.className += ' '+"launchrocket";
+    setTimeout(function(){
+      self.className = 'showrocket';
+    },800)
+});</script>
+<!--rocekt close-->
+<!--farmhouse slider-->
+  <script>
+	$(function(){
+	
+	var fiftySlider = {
+		active: 0,
+		$el: $('#fifty-fifty-slider-stack-id'),
+		$slides: $('#fifty-fifty-slider-stack-id .ffs-slide'),
+		$navCount: $('#fifty-fifty-slider-stack-id .ffs-nav-count'),
+		numSlides: $('#fifty-fifty-slider-stack-id .ffs-slide').length,
+		initialize: function(){
+			this.setHeight();
+			this.updateCount();
+			this.$navCount.find('.ffs-total')
+				.html(this.numSlides)
+		},
+		updateCount: function(){
+			this.$navCount.find('.ffs-current')
+				.html(this.active+1)
+		},
+		setHeight: function(){
+			var elementHeights = this.$slides.map(function() {
+				return $(this).height();
+			}).get();
+
+			var maxHeight = Math.max.apply(null, elementHeights);
+			
+			this.$el.css('height', maxHeight).addClass('height-set');
+			this.$slides.css('bottom', '');
+		},
+		nextSlide: function(){
+			this.$el.removeClass('slide-start');
+			if(this.active+1 < this.numSlides){
+				$(this.$slides[this.active+1]).addClass('active');
+				if(this.active+1 == this.numSlides-1){
+					this.$el.addClass('slide-end');
+				}
+				this.active++;
+			}
+			this.updateCount();
+			this.setHeight();
+		},
+		prevSlide: function(){
+			this.$el.removeClass('slide-end');
+			if(this.active-1 >= 0){
+				$(this.$slides[this.active]).removeClass('active the-one');
+				$(this.$slides[this.active-1]).addClass('the-one')
+				if(this.active-1 == 0){
+					this.$el.addClass('slide-start');
+				}
+				this.active--;
+			}
+			this.updateCount();
+			this.setHeight();
+		}
+	}
+
+	$(window).resize(function(){
+		fiftySlider.$slides.css('bottom', 'auto');
+		fiftySlider.setHeight();
+	});
+
+	fiftySlider.initialize();
+	
+	$('#fifty-fifty-slider-stack-id a.next').click(function(){
+		fiftySlider.nextSlide();
+	})
+
+	$('#fifty-fifty-slider-stack-id a.prev').click(function(){
+		fiftySlider.prevSlide();
+	})
+
+});
+
+  </script><!--farmhouse slider close-->
+  <!--Popup-->
+<script>
+	$(function() {
+    //----- OPEN
+    $('[data-popup-open]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+ 
+        e.preventDefault();
+    });
+ 
+    //----- CLOSE
+    $('[data-popup-close]').on('click', function(e)  {
+        var targeted_popup_class = jQuery(this).attr('data-popup-close');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+ 
+        e.preventDefault();
+    });
+});
+</script><!--Popup close-->
+<script>
+	function myFunction(){
+		alert("Plz check your E-mail or Message for furter details")
+	}
+</script>
+</html>
